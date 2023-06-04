@@ -1,0 +1,5 @@
+function customError($errno, $errstr) {
+  echo "<b>Ошибка:</b> [$errno] $errstr<br>";
+  echo "Конечный Script";
+  die();
+}
